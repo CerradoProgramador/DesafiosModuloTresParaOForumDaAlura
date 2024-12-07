@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Pessoa ad000001 = new Pessoa();
+
+        ad000001.nome = "Pedro Pires Mangueira";
+
+        ad000001.mandarOlaMundo();
+
     }
 }
