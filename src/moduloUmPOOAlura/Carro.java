@@ -1,3 +1,5 @@
+package moduloUmPOOAlura;
+
 public class Carro {
     String marca;
     int anoDeLancamento;
@@ -14,9 +16,9 @@ public class Carro {
         int idade = anoAtual - anoDeLancamento;
 
         if (idade == 0) {
-            System.out.println("Carro de Lançamento");
+            System.out.println("moduloUmPOOAlura.Carro de Lançamento");
         } else if (idade <= 3) {
-            System.out.println("Carro Semi Novo");
+            System.out.println("moduloUmPOOAlura.Carro Semi Novo");
         } else if (idade > 20) {
             System.out.println("Vai pagar mais IPVA não paizão");
         } else {

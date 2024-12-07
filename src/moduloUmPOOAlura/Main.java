@@ -1,3 +1,5 @@
+package moduloUmPOOAlura;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,7 +11,7 @@ public class Main {
 
         ad000001.mandarOlaMundo();
 
-        //* Calculadora
+        //* moduloUmPOOAlura.Calculadora
 
         Calculadora numeroDobrado = new Calculadora();
 
@@ -29,7 +31,7 @@ public class Main {
         fortal.avalia(4.5);
         System.out.println("Estrelas " + fortal.pegaMedia() + "/5\n");
 
-        //*  Carro
+        //*  moduloUmPOOAlura.Carro
 
         Carro byd = new Carro();
 
@@ -49,7 +51,7 @@ public class Main {
         fiat.exibirFichaTecnica();
         fiat.falarIdadeCarro();
 
-        //* Aluno
+        //* moduloUmPOOAlura.Aluno
 
         Aluno vinicius = new Aluno();
 

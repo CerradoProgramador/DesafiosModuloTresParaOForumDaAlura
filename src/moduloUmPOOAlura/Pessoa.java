@@ -1,3 +1,5 @@
+package moduloUmPOOAlura;
+
 public class Pessoa {
     String nome;
 

@@ -1,3 +1,5 @@
+package moduloUmPOOAlura;
+
 public class Musica {
     String titulo;
     String artista;
